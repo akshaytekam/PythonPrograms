@@ -9,7 +9,7 @@
 from math import sqrt
 class Quadratic:
     # taking the value of a b and c and
-    # putting into equation r
+    # putting into equation r.
     def findRoots(self):
         a = float(input("a: "))
         b = float(input("b: "))
