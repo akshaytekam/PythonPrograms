@@ -8,7 +8,7 @@
 """
 import math
 class Distance:
-    # calculate distance between two points
+    # calculate distance between two points.
     def findDistance(self):
 
         p1 = [4, 2]
