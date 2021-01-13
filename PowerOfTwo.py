@@ -11,7 +11,7 @@ class Power:
         number = int(input("Enter a number: "))
         i = 0
         while i <= number:
-            print(pow(2, i))       # power of 2
+            print(pow(2, i))       # power of 2.
             i += 1
 obj=Power()
 obj.powerOfTwo()
