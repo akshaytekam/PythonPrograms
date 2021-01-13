@@ -6,11 +6,12 @@
    * Title - This program takes a command-line argument N and prints a table of thepowers of 2 that are less than or equal to 2^N.
 """
 class Power:
+    # taking a value of N and use pow function
     def powerOfTwo(self):
         number = int(input("Enter a number: "))
         i = 0
         while i <= number:
-            print(pow(2, i))
+            print(pow(2, i))       # power of 2
             i += 1
 obj=Power()
 obj.powerOfTwo()

@@ -7,6 +7,8 @@
 """
 
 class Factor:
+    # By taking the number from user and
+    # calculating the factor
     def primeFactor(self):
         number = int(input("Enter a number: "))
         factors = []
@@ -21,7 +23,7 @@ class Factor:
                 factors.append(divisor)
                 number //= divisor
             else:
-                # prime numbers add except 2
+                     # prime numbers add except 2
                 divisor += 2
         print("The prime factors are:")
         for i in range(len(factors)):

@@ -7,6 +7,7 @@
 """
 import random
 class FlipCoin:
+    # By using random function identify heads or tails
     def flip(self):
 
         flips = int(input("Enter number of flips: "))
@@ -18,7 +19,7 @@ class FlipCoin:
                 tails += 1
             else:
                 heads += 1
-
+        # Percentage of head and tail
         percentOfTail = (tails * flips) / 100
         print(percentOfTail)
         percentOfHead = (heads * flips) / 100

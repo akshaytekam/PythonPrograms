@@ -6,6 +6,7 @@
    * Title - Prints the Nth harmonic number
 """
 class Harmonic:
+    # take a number of harmonic function
     def nthHarmonic(self):
         harmonic = 1.00
         N = int(input("Enter a number: "))
