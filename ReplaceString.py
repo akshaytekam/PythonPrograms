@@ -7,7 +7,7 @@
 """
 class String:
     # Enter a name and replace with another
-    # using replace function
+    # using replace function.
     def replace(self):
         name = input("Enter your name: ")
         txt = "Hello " + name + " how are you?"
