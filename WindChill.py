@@ -8,7 +8,7 @@
 import math
 class WindChill:
     # By taking the values of t and v
-    # putting them into factor equation
+    # putting them into factor equation.
     def findFactor(self):
         v = float(input("Input wind speed: "))
         t = float(input("Input temperature in Fahrenheit: "))
