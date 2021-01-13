@@ -19,7 +19,7 @@ class FlipCoin:
                 tails += 1
             else:
                 heads += 1
-        # Percentage of head and tail
+        # Percentage of head and tail.
         percentOfTail = (tails * flips) / 100
         print(percentOfTail)
         percentOfHead = (heads * flips) / 100
