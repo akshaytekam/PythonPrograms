@@ -15,7 +15,7 @@ class Stopwatch:
         print("start time")
         start_time = time.time()      # Start time
         stopper = input("Press enter to stop...")
-        end_time = time.time()        # end time
+        end_time = time.time()        # end time.
         print("finished")
 
         print("-----------")
