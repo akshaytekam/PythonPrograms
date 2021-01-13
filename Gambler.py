@@ -26,7 +26,7 @@ class Gambler:
                 self.win +=1
             self.count +=1                        # count the total bets
         return self.count
-    # Displaying the percent of win or loss
+    # Displaying the percent of win or loss.
     def percentOfWinLoss(self):
         percentOfWin = (self.win * 100) / self.count
         percentOfLoss = ((self.count - self.win) * 100) / self.count
