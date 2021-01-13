@@ -10,7 +10,7 @@ class String:
         name = input("Enter your name: ")
         txt = "Hello " + name + " how are you?"
         print(txt)
-        x = txt.replace(name, "Akshay")
+        x = txt.replace(name, "Akshay")       # replace the name
         print(x)
 obj=String()
 obj.replace()

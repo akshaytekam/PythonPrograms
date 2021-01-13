@@ -21,7 +21,7 @@ class Factor:
                 factors.append(divisor)
                 number //= divisor
             else:
-                # prime numbers add except 2
+                # prime numbers add except 2.
                 divisor += 2
         print("The prime factors are:")
         for i in range(len(factors)):

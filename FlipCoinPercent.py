@@ -7,13 +7,14 @@
 """
 import random
 class FlipCoin:
+    # use random function to flip coin.
     def flip(self):
 
         flips = int(input("Enter number of flips: "))
         heads = 0
         tails = 0
         for i in range(flips):
-            coin = random.randint(0, 1)
+            coin = random.randint(0, 1)      # random value between 0 and 1
             if coin < 0.5:
                 tails += 1
             else:
