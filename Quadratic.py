@@ -8,6 +8,8 @@
 """
 from math import sqrt
 class Quadratic:
+    # taking the value of a b and c and
+    # putting into equation r
     def findRoots(self):
         a = float(input("a: "))
         b = float(input("b: "))
@@ -16,13 +18,13 @@ class Quadratic:
 
         if r > 0:
             num_roots = 2
-            x1 = (((-b) + sqrt(r)) / (2 * a))
-            x2 = (((-b) - sqrt(r)) / (2 * a))
+            x1 = (((-b) + sqrt(r)) / (2 * a))   # first root
+            x2 = (((-b) - sqrt(r)) / (2 * a))   # second root
             print("There are 2 roots: %f and %f" % (x1, x2))
-        elif r == 0:
+        elif r == 0:                          # condition of no roots
             num_roots = 1
             x = (-b) / 2 * a
             print("There is one root: ", x)
 obj=Quadratic()
-obj.findRoots()
+obj.findRoots()           # create object and calling it
 
