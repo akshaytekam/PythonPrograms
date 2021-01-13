@@ -8,7 +8,7 @@
 """
 class SumOfTriplet:
     # identify the triplets and sum them together
-    # to get zero value
+    # to get zero value.
     def findTriplets(self,arr, n):
         found = True
         for i in range(0, n - 2):
