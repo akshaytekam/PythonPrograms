@@ -7,6 +7,8 @@
        number of triples that sum to exactly 0
 """
 class SumOfTriplet:
+    # identify the triplets and sum them together
+    # to get zero value
     def findTriplets(self,arr, n):
         found = True
         for i in range(0, n - 2):
@@ -17,7 +19,7 @@ class SumOfTriplet:
                         print(arr[i], arr[j], arr[k])
                         found = True
 
-arr = [0, -1, 2, -3, 1]
+arr = [0, -1, 2, -3, 1]          # take it from array
 n = len(arr)
 obj=SumOfTriplet()
 obj.findTriplets(arr, n)
