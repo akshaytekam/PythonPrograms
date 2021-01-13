@@ -23,7 +23,7 @@ class TwoDyArray:
 
         for i in range(size):
             for j in range(len(array[i])):
-                print(array[i][j])               # Print the elements
+                print(array[i][j])               # Print the elements.
         print(array)
 obj=TwoDyArray()
 obj.arrayInput()
