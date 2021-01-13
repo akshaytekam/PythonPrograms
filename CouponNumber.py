@@ -4,13 +4,13 @@
    * time - 11:44:45
    * package - ${PACKAGE_NAME}
    * Title - Given N distinct Coupon Numbers, how many random numbers
-    do you need to generate distinct coupon number
+    do you need to generate distinct coupon number.
 """
 from itertools import permutations
 import random
 import string
 # generating random coupon of given staring
-# and find all possible permutations
+# and find all possible permutations.
 def randomGeneration(size, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for x in range(size))         # generate random value
 ini_str = "abcdefghijklmnopqrst"
